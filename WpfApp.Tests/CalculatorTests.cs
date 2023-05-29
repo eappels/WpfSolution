@@ -4,7 +4,7 @@ namespace WpfApp.Tests
 {
     public class CalculatorTests
     {
-
+        // Add two numbers
         [Fact]
         public void Add_SimpleValuesShouldCalculate()
         {
@@ -18,7 +18,7 @@ namespace WpfApp.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+        // Substract two numbers
         [Fact]
         public void Substract_SimpleValuesShouldCalculate()
         {
@@ -32,7 +32,7 @@ namespace WpfApp.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+        // Multiply two numbers
         [Fact]
         public void Multiply_SimpleValuesShouldCalculate()
         {
@@ -46,7 +46,7 @@ namespace WpfApp.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+        // Divide two numbers
         [Fact]
         public void Divide_SimpleValuesShouldCalculate()
         {
